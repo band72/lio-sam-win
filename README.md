@@ -63,8 +63,14 @@ git clone --recurse-submodules https://github.com/band72/lio-sam-win.git
 | GUI (`lio_sam_gui.py`, `lio_sam_record_gui.py`) | `source …setup.bash`, `preexec_fn=os.setsid`, `os.killpg`, `pkill` |
 | Live recording | `ouster-ros` driver is Linux-only |
 
-## License
+## License and attribution
 
-MIT (see [LICENSE](LICENSE)), matching LIO-SAM-V2. The installer bundles third-party software under its own
-licenses (ROS 2 Apache-2.0, GTSAM BSD, PCL BSD, OpenCV Apache-2.0, Qt LGPL, Boost BSL, TBB Apache-2.0,
-Python PSF and packages).
+Based on **LIO-SAM** by Tixiao Shan et al. (IROS 2020), which is licensed under **BSD 3-Clause**
+(© 2020 Tixiao Shan, © 2021 Christoph Gruber), and on LeGO-LOAM (BSD 3-Clause, © 2018 Robust Field Autonomy
+Lab). Code derived from either stays under BSD 3-Clause; see [licenses/](licenses/). New code written for this
+project is MIT (see [LICENSE](LICENSE)). Full details, the paper citations and BibTeX are in
+[NOTICE.md](NOTICE.md).
+
+If you use this project, please cite: T. Shan et al., "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via
+Smoothing and Mapping," IROS 2020, pp. 5135–5142,
+[doi:10.1109/IROS45743.2020.9341176](https://doi.org/10.1109/IROS45743.2020.9341176).
