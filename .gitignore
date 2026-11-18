@@ -1,0 +1,11 @@
+build/
+install/
+log/
+dist/
+vcpkg_installed/
+*.exe
+*.msi
+*.pdb
+__pycache__/
+*.pyc
+.vs/
